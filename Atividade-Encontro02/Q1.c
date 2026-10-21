@@ -29,5 +29,21 @@ soma=0;
         }
     }
     printf("A soma dos elementos da matriz é: %d\n", soma);
+
+//c)
+    soma=0;
+    for(i=0;i<2;i++){
+        for(j=0;j<5;j++){
+            if(i!=j){
+                soma+= matriz[i][j];
+            }
+        }
+    }
+    printf("A soma dos elementos da matriz é: %d\n",soma);
+
+ //d)
+
+
+    
     return 0;
 }
